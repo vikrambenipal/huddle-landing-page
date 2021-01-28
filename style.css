@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url(Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'poppins-regular';
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'open-sans-regular';
+    src: url(Open_Sans/OpenSans-Regular.ttf);
+}
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-color: #684BB1;
+}
+h1 {
+    font-family: 'poppins-semibold';
+    color: white;
+    line-height: 60px;
+    font-size: 40px;
+}
+p {
+    font-family: 'open-sans-regular';
+    color: white;
+    line-height: 27px;
+    font-size: 18px;
+}
