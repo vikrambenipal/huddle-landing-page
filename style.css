@@ -18,13 +18,13 @@ h1 {
     font-family: 'poppins-semibold';
     color: white;
     line-height: 60px;
-    font-size: 40px;
+    font-size: 3vw
 }
 p {
     font-family: 'open-sans-regular';
     color: white;
     line-height: 27px;
-    font-size: 18px;
+    font-size: 1.3846153846153846vw;
 }
 button {
     font-family: 'poppins-regular';
@@ -38,6 +38,13 @@ button {
     border: none;
 }
 
+button:hover {
+    color: white;
+    background-color: #E880E8;
+    transition: ease-in;
+    transition-duration: 0.2s;
+}
+
 .wrapper-container {
     display: flex;
     flex-direction: row;
@@ -46,12 +53,13 @@ button {
 }
 
 .image-container {
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 .content-container {
-    padding-left: 50px;
-    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 0px;
 }
 
 .logo {
@@ -59,4 +67,8 @@ button {
     height: 49px;
     margin-top: 35px;
     margin-left: 15px;
+}
+
+.social {
+    
 }
