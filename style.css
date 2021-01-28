@@ -41,9 +41,22 @@ button {
 .wrapper-container {
     display: flex;
     flex-direction: row;
+    position: absolute;
+    top: 20%;
+}
+
+.image-container {
+    padding-left: 50px;
+}
+
+.content-container {
+    padding-left: 50px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 264px;
     height: 49px;
+    margin-top: 35px;
+    margin-left: 15px;
 }
