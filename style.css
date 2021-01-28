@@ -26,3 +26,24 @@ p {
     line-height: 27px;
     font-size: 18px;
 }
+button {
+    font-family: 'poppins-regular';
+    font-size: 18px;
+    line-height: 27px;
+    color: #684BB1;
+    width: 200px;
+    height: 56px;
+    border-radius: 28px;
+    box-shadow: 2px 4px 9px 3px rgba(0,0,0,0.2586);
+    border: none;
+}
+
+.wrapper-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 264px;
+    height: 49px;
+}
